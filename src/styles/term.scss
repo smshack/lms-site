@@ -1,0 +1,45 @@
+.privacy,.term{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .privacy-header,.term-header{
+        border: 1px solid;
+        height: 75px;
+        line-height: 75px;
+        display: flex;
+        padding:0 45px;
+        margin-bottom: 40px;
+
+    }
+    .privacy-title,.term-title{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: left;
+        padding:0 45px;
+        padding-bottom: 25px;
+        border-bottom: solid 1px gray ;
+    }
+    .privacy-content,.term-content{
+        padding:0 45px;
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 600;
+        padding-bottom: 75px;
+
+        .con-title{
+            padding-top:20px;
+            padding-bottom: 10px;
+        }
+        .content1{
+            margin-left: 15px;
+            padding-bottom: 5px;
+            font-weight: 400;
+        }
+        .content2{
+            margin-left: 15px;
+            padding: 5px;
+            font-weight: 300;
+        }
+    }
+}

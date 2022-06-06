@@ -1,0 +1,51 @@
+.member {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+
+    .main-back {
+        position: fixed;
+        top: 0;
+        width: 20rem; 
+        right: 0;
+        margin:20px;
+    }
+
+    .member-form {
+        width: 28rem;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resetpassword-absence,.login-absence {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    .form-logo {
+        width: 100%;
+        height: 5rem;
+        line-height: 5rem;
+        border: 1px solid;
+    }
+
+    .form-title {
+        width: 100%;
+        height: 3rem;
+        line-height: 3rem;
+
+    }
+}

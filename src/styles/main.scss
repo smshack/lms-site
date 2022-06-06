@@ -1,0 +1,18 @@
+.main-sliber{
+    width: 60%;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    margin:0 auto;
+    
+    img{
+        object-fit: contain;
+        height: 300px;
+
+    }
+    .slick-track{
+        margin-top: auto; 
+        margin-bottom: auto;
+        height: 300px;
+    }
+}
